@@ -1,0 +1,10 @@
+=== Assemble output ===
+ERRORS:
+ERR: Line 8: duplicate label 'dup'
+ERR: Line 10: unexpected operand
+ERR: Line 11: missing operand
+ERR: Line 13: unknown mnemonic 'fakeop'
+--- warnings ---
+WARN: Label 'dup' defined but never used
+--- labels ---
+dup : 0

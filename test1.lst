@@ -1,0 +1,10 @@
+0000  00000000  test1.asm  ERR: Line 1: unknown mnemonic 'test1.asm'
+0001  00000000  ldc 0  WARN: Label 'label' defined but never used
+0002  FFFFFB00  ldc -5
+0003  00000500  ldc +5
+0004  FFFFFF11  br loop  WARN: Line 6: possible infinite loop (backward jump)
+0005  00000011  br next
+0006  00000400  ldc loop
+0007  00000800  ldc var1
+0008  00000000  data 0
+0009  00000012  halt

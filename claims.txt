@@ -1,0 +1,30 @@
+Student Name: [Your Name]
+User ID: [Your User ID]
+
+Claims regarding the submission based on the marking scheme:
+
+General Marks:
+- [x] Correctly submitted source files with name, user ID, and declaration of authorship included in comments.
+- [x] Compiles without error when being pedantic (`gcc -std=c89 -pedantic`).
+- [x] Compiles without warnings (`gcc -std=c89 -pedantic -Wall -Wpointer-arith -Wwrite-strings -Wstrict-prototypes`).
+- [x] Consistent and sensible formatting with logical program structure.
+- [x] Sensible variable, function & type names with explanatory comments.
+
+The Assembler Part (60%):
+- [x] Reads the source program into an internal form on the first pass and processes it twice.
+- [x] Diagnoses label errors (duplicate, missing, etc.) and bogus mnemonics.
+- [x] Produces a listing file (.lst) showing addresses, machine code, mnemonics, operands, and labels.
+- [x] Has a table of instruction names and expected operands mapping to opcodes.
+- [x] Assembles the provided test programs.
+- [x] Implements and demonstrates the instruction SET.
+- [x] Implements and demonstrates the IITPSx mul and div instructions (opcodes 19 and 20).
+
+The Emulator Part (25%):
+- [x] Loads object file correctly from disk.
+- [x] Executes test programs accurately.
+- [x] Executes mul and div correctly, including detection and reporting of division by zero.
+- [x] Detects errant programs (gracefully handles unknown opcodes).
+
+Test Cases (15%):
+- [x] Created multiple assembly test cases to verify operations, including loop logic and math.
+- [x] Included test to verify mul and div instructions.

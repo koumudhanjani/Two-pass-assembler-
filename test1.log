@@ -1,0 +1,11 @@
+=== Assemble output ===
+ERRORS:
+ERR: Line 1: unknown mnemonic 'test1.asm'
+--- warnings ---
+WARN: Line 6: possible infinite loop (backward jump)
+WARN: Label 'label' defined but never used
+--- labels ---
+label : 1
+loop : 4
+next : 6
+var1 : 8

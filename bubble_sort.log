@@ -1,0 +1,9 @@
+=== Assemble output ===
+--- labels ---
+outer : 4
+inner : 8
+no_swap : 47
+next_out : 51
+done : 56
+arr : 57
+Program assembled.

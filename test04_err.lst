@@ -1,0 +1,9 @@
+0000  00000100  ldc 1  WARN: Label 'dup' defined but never used
+0001  00000200  ldc 2  ERR: Line 8: duplicate label 'dup'
+0002  00000A06  add 10  ERR: Line 10: unexpected operand
+0003  00000000  ldc  ERR: Line 11: missing operand
+0004  00000000  fakeop 5  ERR: Line 13: unknown mnemonic 'fakeop'
+0005  00003200  ldc 50
+0006  00000000  ldc 0
+0007  00000014  div
+0008  00000012  HALT

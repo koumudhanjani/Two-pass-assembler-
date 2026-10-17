@@ -1,0 +1,6 @@
+=== Assemble output ===
+--- labels ---
+loop : 6
+done : 21
+arr : 23
+Program assembled.
